@@ -9,17 +9,17 @@
 // Otherwise return, False/false (according to the language in use).
 
 
-parameter: will be a positive integer not including 0
-return: if points (integer) is 100 or greater returns the string "Well done! You have advanced to the qualifying stage. Win 2 out of your next 3 games to rank up." if under 100 return false
+// parameter: will be a positive integer not including 0
+// return: if points (integer) is 100 or greater returns the string "Well done! You have advanced to the qualifying stage. Win 2 out of your next 3 games to rank up." if under 100 return false
 
-examples: playerRankUp(64), false)
-playerRankUp(101), "Well done! You have advanced to the qualifying stage. Win 2 out of your next 3 games to rank up.")
+// examples: playerRankUp(64), false)
+// playerRankUp(101), "Well done! You have advanced to the qualifying stage. Win 2 out of your next 3 games to rank up.")
 
-pseudocode: i am going to check if (the number given is >= 100) {
-    return "Well done! You have advanced to the qualifying stage. Win 2 out of your next 3 games to rank up." 
-} else {
-    return false
-}
+// pseudocode: i am going to check if (the number given is >= 100) {
+//     return "Well done! You have advanced to the qualifying stage. Win 2 out of your next 3 games to rank up." 
+// } else {
+//     return false
+// }
 
 
 const playerRankUp = (points) => points >= 100 ? "Well done! You have advanced to the qualifying stage. Win 2 out of your next 3 games to rank up." : false
