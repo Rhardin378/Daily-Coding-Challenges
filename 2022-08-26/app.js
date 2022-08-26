@@ -14,16 +14,20 @@
 // // patrick feeney => P.F
 // //ryan hardin => r.h
 // pseudocode:
-// seperate the first and last name into seperate strings and store them in seperate variables
+// seperate the first and last name into seperate strings and store them in seperate variables 
 
 // const fName = name.split(' ')[0]
 // const lName = name.split(' ')[1]
+//capitalize both letters by using .toUpperCase()
+const fName = name.split(' ')[0].toUpperCase()
+const lName = name.split(' ')[1] .toUpperCase()
+
 // return the first name variable's first letter  + '.' +  the last name variable's first letter
 // return fName[0] + '.' + lName[0]
 
 function abbrevName(name){
-    const fName = name.split(' ')[0]
-    const lName = name.split(' ')[1]
-    return fName[0] + '.' + lName[0]
+    const fName = name.split(' ')[0].toUpperCase()
+    const lName = name.split(' ')[1].toUpperCase()
+    return fName[0] + '.' + lName[0].toUpperCase()
     }
 
